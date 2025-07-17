@@ -1,2 +1,3 @@
-console.log("davis");
-console.log("12345")
+let string = "ASAP Frontend";
+
+console.log(string[string.length - 1]);
