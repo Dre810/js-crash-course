@@ -1,5 +1,8 @@
-let loggedin = true;
-let hasmembership = false;
+let counter = 1
 
-// "show video" : "don't show video"
-loggedin && hasmembership ? console.log("show video") : console.log("don't show video");
+while(counter <= 20 ){
+    console.log(counter);
+    counter=counter + 1;
+    
+}
+console.log("while loop finished");
