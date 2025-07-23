@@ -1,8 +1,5 @@
-//currency converter
-//$AUD to $USD formula:
-//AUD = USD x 1.5
+let loggedin = true;
+let hasmembership = false;
 
-let USD = 1200;
-// Convert USD to AUD
-let AUD = USD * 1.5;
-console.log(AUD);
+// "show video" : "don't show video"
+loggedin && hasmembership ? console.log("show video") : console.log("don't show video");
