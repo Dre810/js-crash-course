@@ -1,23 +1,28 @@
+function signUp(
+        email,
+        password,
+        name,
+        discord,
+        subscription,
+        lessonsCompleted
+        ) {
+            let user = {
+                email: email,
+                password: password,
+                name: name,
+                discord: discord,
+                subscription: subscription,
+                lessonsCompleted: lessonsCompleted,
+            }; 
+            users.push(user);
+             
+        }
+    
+signUp("smith@gmail.com", 
+    "password123",
+     "John Smith",
+     "johnsmith#1234",
+     "VIP+",
+     [1,2]);
 
-let users = [{
-    email: "example@gmail.com",
-    password: "password123",
-    name: "John Doe",
-    discord: "example#1234",
-    subscription: "VIP+",
-    lessonCompleted: [1, 2, 3]
-},
-
-{
-    email: "davis@gmail.com",
-    password: "password123",
-    name: "Davis",
-    discord: "Daviscodes",
-    subscription: "VIP+",
-    lessonCompleted: [1, 2, 3, 4, 5]
-}
-];
-
-console.log(users[1].name);
-
-
+console.log(users);
