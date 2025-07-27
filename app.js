@@ -1,28 +1,3 @@
-function signUp(
-        email,
-        password,
-        name,
-        discord,
-        subscription,
-        lessonsCompleted
-        ) {
-            let user = {
-                email: email,
-                password: password,
-                name: name,
-                discord: discord,
-                subscription: subscription,
-                lessonsCompleted: lessonsCompleted,
-            }; 
-            users.push(user);
-             
-        }
-    
-signUp("smith@gmail.com", 
-    "password123",
-     "John Smith",
-     "johnsmith#1234",
-     "VIP+",
-     [1,2]);
+document.querySelector('h1').innerHTML = "ASAP frontend"
 
-console.log(users);
+document.querySelector('h1').style.color = "green";
